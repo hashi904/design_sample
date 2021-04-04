@@ -6,6 +6,7 @@
   - install したらサーバーを再起動する
 - npm install @material-ui/core
 - npm install material-ui-icons
+- npm install sass
 
 ### 3 Pages
 - SingIn
