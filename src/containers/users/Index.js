@@ -1,11 +1,16 @@
 import React from "react";
+import MainCard from './../../components/card/MainCard'
+import '../../style/scss/Index.scss'
+
 const Index = () => {
+
   return (
-    <div>
-      <div>Sign In</div>
-      <div>Sign Up</div>
+    <div className='main'>
+      <div className='main__card'>
+        <MainCard/>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Index;

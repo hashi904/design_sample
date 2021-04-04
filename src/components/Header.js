@@ -32,7 +32,8 @@ const Header = () => {
           <Typography variant="h6" className={classes.title}>
             React/Redux App
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">Sign Up</Button>
+          <Button color="inherit">Sign In</Button>
         </Toolbar>
       </AppBar>
     </div>
