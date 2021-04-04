@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
 import Index from './containers/users/Index';
 import SignUp from './containers/users/SignUp';
 import SignIn from './containers/users/SignIn';
@@ -8,6 +9,7 @@ import Profile from './containers/users/Profile';
 const App = () => {
   return(
     <BrowserRouter>
+      <Header/>
       <Switch>
         <Route exact path="/" component={Index} />
         <Route exact path="/sign_up" component={SignUp} />
