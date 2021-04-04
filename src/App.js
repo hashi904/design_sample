@@ -1,11 +1,14 @@
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import SignUp from './containers/users/SignUp';
 
-function App() {
-  return (
-    <div className="App">
-      <p>Hello</p>
-    </div>
-  );
+const App = () => {
+  return(
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={SignUp} />
+      </Switch>
+    </BrowserRouter>
+  )
 }
 
 export default App;
