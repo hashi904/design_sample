@@ -1,6 +1,6 @@
 import React from "react";
-import MainCard from './../../components/card/MainCard'
-import '../../style/scss/Index.scss'
+import MainCard from './../components/card/MainCard'
+import '../style/scss/users/Index.scss'
 
 const Index = () => {
 

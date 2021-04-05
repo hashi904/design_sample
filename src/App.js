@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
-import Index from './containers/users/Index';
+import Index from './containers/Index';
 import SignUp from './containers/users/SignUp';
 import SignIn from './containers/users/SignIn';
 import UserList from './containers/users/UserList';
